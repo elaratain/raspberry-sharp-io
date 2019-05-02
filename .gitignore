@@ -1,37 +1,24 @@
-# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
-[Dd]ebug/
-[Rr]elease/
-x64/
-build/
-[Bb]in/
-[Oo]bj/
-
-# mstest test results
+*.mat
+*.xls
+*.sgr
+*.bak
+*.csv
+*.user
+*.nd
+_._
+~$*
+Backup_of*
+.idea
+.vs
+images
+bin
+obj
+log
+release
+packages
+coverage
+results.xml
 TestResults
-
-# user files
-**.user
-**.suo
-**.sdf  
-*.sln.docstates
-
-# resharper  
-/_[Rr]e[Ss]harper.*  
-*.[Rr]e[Ss]harper.*  
-*.[Rr]e[Ss]harper  
-_[Rr]e[Ss]harper.*
-
-  
-# OS generated files  
-**/[Tt]humbs.db
-**/[Dd]esktop.ini
-
-# Nuget packages
-packages/*
-!packages/repositories.config
-
-# Visual Studio profiler
-*.psess
-*.vsp
-*.vspx
-
+examples/images
+/doc/UML
+*.puml
